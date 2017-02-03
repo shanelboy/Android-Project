@@ -3,6 +3,33 @@
 
     <item
         is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_bb66dc0cefebb153345489f8b719da629a5943bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_f1e572cc5210c694d1ffeecdf1a066b7ffeed298/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cd1410509a90a38f7b661c29d8749de8f477da1">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_04d1d53603e206ca2f953bb9325060f39f3fa520/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/sean/Desktop/School/Term 3/COMP3717/Project/comp3717project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -21,12 +48,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ac0425c99b41ea9c94373ecabda25688add7901a">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6217d881ea827245625585ba0164832ee67ba2d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_84c34d5279fa910913e7639d81bfee009d489d9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/sean/Desktop/School/Term 3/COMP3717/Project/comp3717project/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
         <dex dex="/Users/sean/Desktop/School/Term 3/COMP3717/Project/comp3717project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_ccc11b161032b93a19810b7290392714cbc4cdad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_a3752f7d1cfea0ef166e54307bb45ac7254d17fc/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -45,6 +99,24 @@
         revision="25.0.2"
         sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
         <dex dex="/Users/sean/Desktop/School/Term 3/COMP3717/Project/comp3717project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_93d07b11ce766816fdb6fc2e668775f5de5823c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_fa6aaf7ef6b2928f398fc0a1c33567952f546103/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_26c8a2b57aed7e1b799338aaacc6cb86bd3d7b27/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,6 +147,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_5e8b79993e12b6c3899d6badf8d0c5815a7185f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/sean/Desktop/School/Term 3/COMP3717/Project/comp3717project/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -84,12 +165,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_100f065156cf50379ef8d39db37774cd6405b8fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/sean/Desktop/School/Term 3/COMP3717/Project/comp3717project/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
         <dex dex="/Users/sean/Desktop/School/Term 3/COMP3717/Project/comp3717project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_f8c0f21621bcac462909c969e6aa688fc8e78b8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sean/Android-Project/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/sean/Android-Project/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_a13a7884de5e077480cd04054189976081376d8f/classes.dex" />
     </item>
     <item
         is-multidex="true"
