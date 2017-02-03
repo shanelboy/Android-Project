@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void nearby(final View view){
         final Intent intent;
-        intent = new Intent(this, search_result.class);
+        intent = new Intent(this, MapsActivity.class);
         startActivityForResult(intent, CODE_DISPLAY);
     }
     public void list(final View view){
