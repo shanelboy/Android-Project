@@ -9,6 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#d1d1d1"
     tools:context="a00944390.comp3717.bcit.ca.comp3717project.listOfParks">
 
     <TextView
@@ -24,79 +25,6 @@
         android:layout_width="300dp"
         android:textColor="@color/colorPrimaryDark" />
 
-    <TextView
-        android:text="Park names"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView10"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:id="@+id/textView11"
-        android:layout_width="130dp"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:onClick="park2" />
-
-    <TextView
-        android:text="Park names"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:id="@+id/textView16"
-        android:layout_width="130dp"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_below="@+id/textView15"
-        android:layout_alignStart="@+id/textView15" />
-
-    <TextView
-        android:text="Park names"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:id="@+id/textView15"
-        android:layout_width="130dp"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_below="@+id/textView14"
-        android:layout_alignStart="@+id/textView14" />
-
-    <TextView
-        android:text="Park names"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView14"
-        android:layout_width="130dp"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_marginTop="50dp"
-        android:layout_below="@+id/textView13"
-        android:layout_alignStart="@+id/textView13" />
-
-    <TextView
-        android:text="Park names"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:id="@+id/textView12"
-        android:layout_width="130dp"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_below="@+id/textView11"
-        android:layout_alignStart="@+id/textView11" />
-
-    <TextView
-        android:text="Park names"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="41dp"
-        android:id="@+id/textView13"
-        android:layout_width="130dp"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_below="@+id/textView12"
-        android:layout_alignStart="@+id/textView12" />
-
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -105,4 +33,16 @@
         android:layout_alignParentStart="true"
         android:id="@+id/imageButton6"
         android:onClick="backHome" />
+    
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview_park"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:dividerHeight="10dp"
+        android:divider="#d1d1d1">
+
+    </ListView>
 </RelativeLayout>
