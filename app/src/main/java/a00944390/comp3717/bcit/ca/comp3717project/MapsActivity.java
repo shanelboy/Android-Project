@@ -44,9 +44,15 @@ public class MapsActivity extends AppCompatActivity implements
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
         */
-        final LatLng newWest = new LatLng(-49.2057, 122.9110);
-        Marker melbourne = mMap.addMarker(new MarkerOptions().position(newWest).title("New Westminster").snippet("Park name here"));
-        melbourne.showInfoWindow();
+        final LatLng newWest = new LatLng(0,50);
+        Marker newWestMin = mMap.addMarker(new MarkerOptions().position(newWest).title("New Westminster").snippet("Park name here"));
+        newWestMin.showInfoWindow();
+        final LatLng vancouver = new LatLng(0,0);
+        Marker newVan = mMap.addMarker(new MarkerOptions().position(vancouver).title("Vancouver").snippet("van parks"));
+        newVan.showInfoWindow();
+        final LatLng burnaby = new LatLng(0,30);
+        Marker newBurn = mMap.addMarker(new MarkerOptions().position(burnaby).title("Burnaby").snippet("Burnaby parks"));
+        newBurn.showInfoWindow();
     }
 
 }
