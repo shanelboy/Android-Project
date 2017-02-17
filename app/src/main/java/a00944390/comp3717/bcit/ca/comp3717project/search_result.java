@@ -7,12 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import static a00944390.comp3717.bcit.ca.comp3717project.MainActivity.KEY_SENT_TEXT;
 
 public class search_result extends AppCompatActivity {
     private String text;
     private TextView searchAdd;
     private static final int CODE_DISPLAY = 0;
-    public static final String KEY_SENT_TEXT = "text";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

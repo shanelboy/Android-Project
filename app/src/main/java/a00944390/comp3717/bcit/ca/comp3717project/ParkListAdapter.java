@@ -15,9 +15,9 @@ import java.util.List;
 public class ParkListAdapter extends BaseAdapter{
 
     private Context mContext;
-    private List<Park_List> mParkList;
+    private List<Park> mParkList;
 
-    public ParkListAdapter(Context mContext, List<Park_List> mParkList) {
+    public ParkListAdapter(Context mContext, List<Park> mParkList) {
         this.mContext = mContext;
         this.mParkList = mParkList;
     }

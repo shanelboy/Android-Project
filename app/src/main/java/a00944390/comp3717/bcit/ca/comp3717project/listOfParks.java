@@ -9,38 +9,69 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class listOfParks extends AppCompatActivity{
     private ListView lvPark;
     private ParkListAdapter adapter;
-    private List<Park_List> mParkList;
+    //private List<Park> mParkList;
     private final int CODE_DISPLAY = 0;
+    DatabaseHandler db = new DatabaseHandler(this);
+    
+    //// TODO: 2017/2/17 Need to make sure data only add once to database. 
+    /*public boolean checkDBIsNull(String table) {
+        Cursor cur = db.rawQuery("SELECT COUNT(*) FROM " + table + "", null);
+        if (cur != null) {
+            cur.moveToFirst();
+            System.out.println("record : " + cur.getInt(0));
+            if (cur.getInt(0) == 0) {
+                System.out.println("Table is Null");
+                cur.close();
+                return true;
+            }
+            cur.close();
+        } else {
+            System.out.println("Cursor is Null");
+            return true;
+        }
+        System.out.println("Table Not Null");
+        return false;
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_of_parks);
 
         lvPark = (ListView)findViewById(R.id.listview_park);
 
-        mParkList = new ArrayList<>();
+
+        db.addPark(new Park("Queens Park","51, THIRD AVE", "City Park"));
+        db.addPark(new Park("Westminster Pier Park","1, SIXTH ST", "City Park"));
+        db.addPark(new Park("Sapperton Landing Park","60, E COLUMBIA ST", "Regional Park"));
+        db.addPark(new Park("Old School House Park","51, THIRD AVE", "Neighbourhood Park"));
+
+        List<Park> parks = db.getAllParks();
         //Add sample data for list
         //We can get data from DB here
-        mParkList.add(new Park_List(1, "Queens Park","51, THIRD AVE", "City Park" ));
-        mParkList.add(new Park_List(2, "Westminster Pier Park","1, SIXTH ST", "City Park" ));
-        mParkList.add(new Park_List(3, "Sapperton Landing Park","60, E COLUMBIA ST", "Regional Park" ));
-        mParkList.add(new Park_List(4, "Old School House Park","51, THIRD AVE", "Neighbourhood Park" ));
-        mParkList.add(new Park_List(5, "Port Royal Riverfront Walk (Dyke Trail)","51, THIRD AVE", "Neighbourhood Park" ));
-        mParkList.add(new Park_List(6, "Thompson's Landing Park","51, THIRD AVE", "Neighbourhood Park" ));
-        mParkList.add(new Park_List(7, "Sukh Sagar Park","51, THIRD AVE", "Neighbourhood Park" ));
-        mParkList.add(new Park_List(8, "Connaught Heights Park","51, THIRD AVE", "Neighbourhood Park" ));
-        mParkList.add(new Park_List(9, "Lookout Park","51, THIRD AVE", "Neighbourhood Park" ));
-        mParkList.add(new Park_List(10, "Toronto Place Park","51, THIRD AVE", "Neighbourhood Park" ));
+
+       /* mParkList.add(new Park(1, "Queens Park","51, THIRD AVE", "City Park" ));
+        mParkList.add(new Park(2, "Westminster Pier Park","1, SIXTH ST", "City Park" ));
+        mParkList.add(new Park(3, "Sapperton Landing Park","60, E COLUMBIA ST", "Regional Park" ));
+        mParkList.add(new Park(4, "Old School House Park","51, THIRD AVE", "Neighbourhood Park" ));
+        mParkList.add(new Park(5, "Port Royal Riverfront Walk (Dyke Trail)","51, THIRD AVE", "Neighbourhood Park" ));
+        mParkList.add(new Park(6, "Thompson's Landing Park","51, THIRD AVE", "Neighbourhood Park" ));
+        mParkList.add(new Park(7, "Sukh Sagar Park","51, THIRD AVE", "Neighbourhood Park" ));
+        mParkList.add(new Park(8, "Connaught Heights Park","51, THIRD AVE", "Neighbourhood Park" ));
+        mParkList.add(new Park(9, "Lookout Park","51, THIRD AVE", "Neighbourhood Park" ));
+        mParkList.add(new Park(10, "Toronto Place Park","51, THIRD AVE", "Neighbourhood Park" ));*/
+
+
 
         //Init adapter
-        adapter = new ParkListAdapter(getApplicationContext(), mParkList);
+        adapter = new ParkListAdapter(getApplicationContext(), parks);
+        //adapter = new ParkListAdapter(getApplicationContext(), (List<Park>) db);
         lvPark.setAdapter(adapter);
 
         lvPark.setOnItemClickListener(new AdapterView.OnItemClickListener(){
