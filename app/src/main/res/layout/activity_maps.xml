@@ -5,4 +5,7 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="a00944390.comp3717.bcit.ca.comp3717project.MapsActivity" />
+    tools:context="a00944390.comp3717.bcit.ca.comp3717project.MapsActivity">
+
+
+</fragment>

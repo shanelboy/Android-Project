@@ -9,14 +9,12 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import java.util.List;
-
 public class listOfParks extends AppCompatActivity{
     private ListView lvPark;
     private ParkListAdapter adapter;
     //private List<Park> mParkList;
     private final int CODE_DISPLAY = 0;
-    DatabaseHandler db = new DatabaseHandler(this);
+    //DatabaseHandler db = new DatabaseHandler(this);
     
     //// TODO: 2017/2/17 Need to make sure data only add once to database. 
     /*public boolean checkDBIsNull(String table) {
@@ -47,12 +45,12 @@ public class listOfParks extends AppCompatActivity{
         lvPark = (ListView)findViewById(R.id.listview_park);
 
 
-        db.addPark(new Park("Queens Park","51, THIRD AVE", "City Park"));
-        db.addPark(new Park("Westminster Pier Park","1, SIXTH ST", "City Park"));
-        db.addPark(new Park("Sapperton Landing Park","60, E COLUMBIA ST", "Regional Park"));
-        db.addPark(new Park("Old School House Park","51, THIRD AVE", "Neighbourhood Park"));
+        //db.addPark(new Park("Queens Park","51, THIRD AVE", "City Park"));
+        //db.addPark(new Park("Westminster Pier Park","1, SIXTH ST", "City Park"));
+        //db.addPark(new Park("Sapperton Landing Park","60, E COLUMBIA ST", "Regional Park"));
+        //db.addPark(new Park("Old School House Park","51, THIRD AVE", "Neighbourhood Park"));
 
-        List<Park> parks = db.getAllParks();
+        //List<Park> parks = db.getAllParks();
         //Add sample data for list
         //We can get data from DB here
 
@@ -70,7 +68,7 @@ public class listOfParks extends AppCompatActivity{
 
 
         //Init adapter
-        adapter = new ParkListAdapter(getApplicationContext(), parks);
+        //adapter = new ParkListAdapter(getApplicationContext(), parks);
         //adapter = new ParkListAdapter(getApplicationContext(), (List<Park>) db);
         lvPark.setAdapter(adapter);
 

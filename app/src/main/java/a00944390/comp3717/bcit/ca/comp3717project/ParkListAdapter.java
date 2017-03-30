@@ -1,19 +1,34 @@
 package a00944390.comp3717.bcit.ca.comp3717project;
 
-import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.TextView;
-
-import java.util.List;
 
 /**
  * Created by Benjamin on 2017/2/2.
  */
 
 public class ParkListAdapter extends BaseAdapter{
+    @Override
+    public int getCount() {
+        return 0;
+    }
 
+    @Override
+    public Object getItem(int position) {
+        return null;
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return 0;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        return null;
+    }
+/*
     private Context mContext;
     private List<Park> mParkList;
 
@@ -54,5 +69,5 @@ public class ParkListAdapter extends BaseAdapter{
         v.setTag(mParkList.get(position).getId());
 
         return v;
-    }
+    }*/
 }
